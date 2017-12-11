@@ -1,10 +1,10 @@
 === oik post type support ===
 Contributors: bobbingwide
-Donate link: http://www.oik-plugins.com/oik/oik-donate/
+Donate link: https://www.oik-plugins.com/oik/oik-donate/
 Tags: excerpt, page, post_type_support
-Requires at least: 3.0.4
-Tested up to: 4.7-beta4
-Stable tag: 0.0.4
+Requires at least: 4.9
+Tested up to: 4.9.1
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ Hint: When writing an excerpt use similar wording to that in your SEO meta descr
 
 == Frequently Asked Questions ==
 = Where is the FAQ? =
-[oik FAQ](http://www.oik-plugins.com/oik/oik-faq)
+[oik FAQ](https://www.oik-plugins.com/oik/oik-faq)
 
 = Is there a support forum? =
 Yes - please use the standard WordPress forum - http://wordpress.org/tags/oik?forum_id=10
@@ -35,6 +35,9 @@ Yes - see above
 None 
 
 == Upgrade Notice ==
+= 1.0.0 =
+Fixes semantic version number testing problems. Tested with WordPress 4.9 and PHP 7.2.
+
 = 0.0.4 =
 Tested with WordPress 4.7-beta4
 
@@ -53,6 +56,11 @@ There isn't an uninstall functionality... not yet.
 Use in conjunction with the [bw_pages] shortcode (from the oik plugin) to produce better excerpts for your pages
 
 == Changelog ==
+= 1.0.0 =
+* Changed: Version to prevent WordPress from offering 0.02.0102 as an update to 0.0.4 
+* Tested: With WordPress 4.9.1
+* Tested: With PHP 7.2
+
 = 0.0.4 = 
 * Changed: Now using semantic versioning
 * Tested: With WordPress 4.7-beta4
@@ -72,9 +80,9 @@ Use in conjunction with the [bw_pages] shortcode (from the oik plugin) to produc
 
 == Further reading ==
 If you want to read more about the oik plugins then please visit the
-[oik plugin](http://www.oik-plugins.com/oik) 
+[oik plugin](https://www.oik-plugins.com/oik) 
 **"the oik plugin - for often included key-information"**
 
 For more information about excerpts and the More tag see
-[Customizing the Read More](http://codex.wordpress.org/Customizing_the_Read_More#Designing_the_More_Tag)
+[Customizing the Read More](https://codex.wordpress.org/Customizing_the_Read_More#Designing_the_More_Tag)
 
